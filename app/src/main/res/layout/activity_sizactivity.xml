@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SIZActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00BCD4"
+        android:onClick="goBack"
+        android:text="Назад"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="371dp"
+        android:layout_height="619dp"
+        android:text="1. Личная безопасность работников Личная безопасность работников состоит в том, что они должны соблюдать меры безопасности в отношении технологических, природных, социальных опасностей и опасностей, связанных с укладом жизни. 2. Безопасность наемного труда работников Безопасность наемного труда работников состоит в комплексном обеспечении безопасных условий и охране их труда. 3. Безопасность третьих лиц и территориальных поселений Безопасность третьих лиц и территориальных поселений от неблагоприятного воздействия производственной деятельности предусматривает лицензирование, декларирование, сертификацию, страхование рисков и возмещение вреда, причиненного личности или имуществу гражданина и имуществу юридического лица в полном объеме причинителем вреда, деятельность которого связана с повышенное опасностью для окружающих. 4. Промышленная безопасность Промышленная безопасность опасных производственных объектов – это состояние защищенности жизненно важных интересов личности и общества от аварий на опасных производственных объектах и последствий указанных аварий, которое обеспечивается соблюдением требований промышленной безопасности, т.е. условий, запретов, ограничений и других обязательных требований, содержащихся в законах и иных нормативных правовых актах и нормативных технических документах. Транспортная безопасность представляет собой состояние защищенности объектов транспортной инфраструктуры и транспортных средств от актов незаконного вмешательства, а ее обеспечение возлагается на субъекты транспортной инфраструктуры, в том числе и на работодателей. "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="105dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
